@@ -17,18 +17,15 @@ Asagidaki source-da sql serve basligi altindaki datatypelari oyrenin
 Kitabxana database-i qurursunuz
 
 Books:
+ Id
+ Name - max 100, min 2
+ AuthorId
+ PageCount - min 10
 
-Id,
-Name - max 100, min 2
-AuthorId,
-PageCount - min 10
-
--------------------------
 Authors:
-
-Id,
-Name,
-Surname
+ Id
+ Name
+ Surname
 
 Books ve Authors table-lariniz olsun
  (one to many realtion) Id,Name,PageCount ve
